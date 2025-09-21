@@ -22,3 +22,17 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Frontend dependencies and build output
+src/main/frontend/node_modules/
+src/main/frontend/dist/
+
+# Environment files
+src/main/frontend/.env
+src/main/frontend/.env.*
+
+# Maven build output
+/target/
+
+# JetBrains IDE project settings
+.idea/
